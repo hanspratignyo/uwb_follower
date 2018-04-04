@@ -1,0 +1,5 @@
+<launch>
+	<node name="localizing" pkg="beginner_tutorials" type="localize" output="screen">
+		<param name="scale" value="20" type="int"/>
+	</node>
+</launch>
